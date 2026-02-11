@@ -55,7 +55,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Senior AI/ML Engineer",
+    title: "Senior Machine Learning Engineer",
     icon: creator,
   },
 ];
@@ -117,7 +117,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Senior AI/ML Engineer",
+    title: "Senior Machine Learning Engineer",
     company_name: "Stellar",
     icon: starbucks,
     iconBg: "#383E56",
