@@ -18,6 +18,7 @@ import {
   meta,
   starbucks,
   tesla,
+  stellar,
   shopify,
   carrent,
   jobit,
@@ -54,7 +55,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Senior AI/ML Engineer",
     icon: creator,
   },
 ];
@@ -116,11 +117,28 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Senior Team Leader",
-    company_name: "Autism360",
+    title: "Senior AI/ML Engineer",
+    company_name: "Stellar",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "Jun 2022 - Feb 2023",
+    date: "Mar 2024 - Present",
+    points: [
+      "Designed and created structured machine learning tasks and datasets to train and evaluate AI coding agents across frameworks such as PyTorch, TensorFlow, and JAX.",
+      "Analyzed AI model behavior to identify failure modes, performance gaps, and optimization opportunities, improving model reliability and output quality.",
+      "Implemented Python-based solutions for data preprocessing, feature engineering, model experimentation, and evaluation workflows.",
+      "Applied strong understanding of ML fundamentals including optimization techniques, neural network architectures, loss functions, and evaluation metrics.",
+      "Produced clear technical documentation outlining methodologies, experiment results, and reproducible workflows for AI training and validation.",
+      "Collaborated with cross-functional teams to design realistic ML problem scenarios and ensure alignment with real-world engineering practices.",
+      "Built automated evaluation pipelines to benchmark AI-generated solutions for correctness, efficiency, and scalability.",
+      "Followed MLOps best practices including version control, experiment tracking, and reproducible development environments."
+    ],
+  },
+  {
+    title: "Senior Team Leader",
+    company_name: "Autism360",
+    icon: stellar,
+    iconBg: "#fcfcff",
+    date: "Jun 2022 - Feb 2024",
     points: [
       "Developed and maintained multiple mobile applications using React Native, ensuring high-performance, scalability, and code optimization.",
       "Worked closely with designers, project managers, and stakeholders to understand requirements, define scope, and provide technical guidance.",
@@ -216,6 +234,14 @@ const testimonials = [
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
+  {
+    testimonial:
+      "Rick's expertise in web development is unparalleled. They transformed our online presence and boosted our sales significantly.",
+    name: "Jason Miller",
+    designation: "Founder",
+    company: "Autism360 Corp",
+    image: "https://randomuser.me/api/portraits/women/7.jpg",
+  },
 ];
 
 const projects = [
@@ -280,7 +306,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/silvanus930",
   },
 ];
 
